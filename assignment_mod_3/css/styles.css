@@ -1,0 +1,51 @@
+body {
+	font-size: 2.5em;
+	background-color: yellow;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	background-color: yellow;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+p {
+	background-color: yellow;
+	width: 98%;
+	margin-left: 1%;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+.navbar-header {
+	margin: 0;
+}
+
+#nav-list {
+	text-align: center;
+	background-color: red;
+	margin: 0;
+}
+
+#bs-example-navbar-collapse-1 {
+	background-color: red;
+	border-color: red;
+	width: 110%
+	margin: 0;
+}
+
+.container-fluid>.navbar-collapse {
+	margin: 0 -15px 0 -15px;
+	border-color: red;
+}
