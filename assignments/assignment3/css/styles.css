@@ -1,6 +1,5 @@
 body {
 	font-size: 2.5em;
-	background-color: yellow;
 }
 
 div {
@@ -8,38 +7,25 @@ div {
 	border: 0px;
 }
 
-h1 {
-	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top: 0px;
-}
-
-h2 {
-	background-color: yellow;
-	margin: 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-p {
-	background-color: yellow;
-	width: 98%;
-	margin-left: 1%;
-}
 
 .navbar {
 	margin: 0;
 	padding: 0;
 	border-width: 0;
+	background-color: #fff0f5;
 }
 
 .navbar-header {
 	margin: 0;
+
+}
+.navbar-default .navbar-brand {
+    color: #777;
+    font-weight: bold;
 }
 
 .food {
-	background-color: red;
+	/* background-color: red; */
 	margin: 0;
 	padding: 0;
 	border-width: 0;
@@ -53,6 +39,14 @@ p {
 	width: 100%
 	margin: 0;
 	padding: 0;
+}
+
+ li.food a:active, li.food a:hover {
+	border: 2px solid gray;
+	color: 00ff00;
+	cursor: pointer;
+	box-shadow: 3px 3px gray, -1em 0 .4em olive;
+
 }
 
 #bs-example-navbar-collapse-1 {
@@ -73,3 +67,39 @@ p {
 	padding: 0;
 }
 
+
+/* -----------CONTENT STYLE --------------- */
+.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+}
+
+h2 {
+	/* background-color: yellow; */
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+p {
+	/* background-color: yellow; */
+	width: 98%;
+	margin-left: 1%;
+}
+
+article {
+	background-color: #fff0f5;
+}
+
+article > img {
+	float: left;
+	margin-right: 1px;
+}
+
+/* -----------END CONTENT STYLE --------------- */
